@@ -17,8 +17,8 @@ wss.on('connection', (ws) => {
 
   ws.on('message', async (message) => {
     const raw = message.toString()
-    const data = tryParseJSON(raw)
-    if (!data || isNotObject(data)) {
+    const data = Utils.tryParseJSON(raw)
+    if (!data || Utils.isNotObject(data)) {
       console.log(`[Websocket] Recieved invalid response from socket:\n${data ? JSON.stringify(data) : raw}`)
       return ws.close(4006, 'invalid_payload')
     }
