@@ -1,0 +1,10 @@
+{
+  "name": "prismarine-k8s-wss",
+  "packageManager": "yarn@3.6.1",
+  "dependencies": {
+    "bufferutil": "^4.0.7",
+    "mongodb": "^5.7.0",
+    "utf-8-validate": "^6.0.3",
+    "ws": "^8.13.0"
+  }
+}
