@@ -3,7 +3,9 @@ import { promisify } from 'util'
 
 export default class RedisCache {
   constructor() {
-    this.client = redis.createClient();
+    this.client = redis.createClient({
+      url: process.env.REDIS_CONNECTION_STRING
+    });
 
     // Promisify Redis commands for easier async/await usage
     this.getAsync = promisify(this.client.get).bind(this.client);
@@ -56,7 +58,7 @@ export default class RedisCache {
     }
   }
 
-  async merge (key, objectToMerge) {
+  async merge(key, objectToMerge) {
     try {
       const existingArray = await this.get(key) || [];
       existingArray.push(objectToMerge);
