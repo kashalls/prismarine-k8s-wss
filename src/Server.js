@@ -1,7 +1,10 @@
-import WebSocket, { WebSocketServer } from 'ws';
+import { WebSocketServer } from 'ws';
 import MongoClient from './utils/MongoClient.js';
+import RedisCache from './utils/RedisCache.js';
 import Constants from './utils/Constants.js';
-import Utils from './utils/Utils.js'
+import Utils from './utils/Utils.js';
+
+const redis = new RedisCache();
 
 const wss = new WebSocketServer({
   port: process.env.SERVER_PORT ?? 8080
