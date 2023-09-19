@@ -29,7 +29,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["bufferutil", "npm:4.0.7"],\
-            ["mongodb", "virtual:ea9e9435b095441b892f0cabaf2ece9855a5630bbdd1cbb4dd2e0e7f579a17a40355d6ce87f376ae76520dbd7c4956876779a6bdc16c91f5b223dafa5d445052#npm:5.9.0"],\
+            ["mongodb", "virtual:ea9e9435b095441b892f0cabaf2ece9855a5630bbdd1cbb4dd2e0e7f579a17a40355d6ce87f376ae76520dbd7c4956876779a6bdc16c91f5b223dafa5d445052#npm:6.1.0"],\
             ["redis", "npm:4.6.7"],\
             ["utf-8-validate", "npm:6.0.3"],\
             ["ws", "virtual:ea9e9435b095441b892f0cabaf2ece9855a5630bbdd1cbb4dd2e0e7f579a17a40355d6ce87f376ae76520dbd7c4956876779a6bdc16c91f5b223dafa5d445052#npm:8.13.0"]\
@@ -374,10 +374,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["bson", [\
-        ["npm:5.5.0", {\
-          "packageLocation": "./.yarn/cache/bson-npm-5.5.0-994b2902b7-61afd240df.zip/node_modules/bson/",\
+        ["npm:6.1.0", {\
+          "packageLocation": "./.yarn/cache/bson-npm-6.1.0-9e44c0e303-8250c8158c.zip/node_modules/bson/",\
           "packageDependencies": [\
-            ["bson", "npm:5.5.0"]\
+            ["bson", "npm:6.1.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1021,43 +1021,50 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["mongodb", [\
-        ["npm:5.9.0", {\
-          "packageLocation": "./.yarn/cache/mongodb-npm-5.9.0-e0f7c8bf46-5fb828d650.zip/node_modules/mongodb/",\
+        ["npm:6.1.0", {\
+          "packageLocation": "./.yarn/cache/mongodb-npm-6.1.0-74114fa4aa-ed60c14f0a.zip/node_modules/mongodb/",\
           "packageDependencies": [\
-            ["mongodb", "npm:5.9.0"]\
+            ["mongodb", "npm:6.1.0"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:ea9e9435b095441b892f0cabaf2ece9855a5630bbdd1cbb4dd2e0e7f579a17a40355d6ce87f376ae76520dbd7c4956876779a6bdc16c91f5b223dafa5d445052#npm:5.9.0", {\
-          "packageLocation": "./.yarn/__virtual__/mongodb-virtual-8acfab3fba/0/cache/mongodb-npm-5.9.0-e0f7c8bf46-5fb828d650.zip/node_modules/mongodb/",\
+        ["virtual:ea9e9435b095441b892f0cabaf2ece9855a5630bbdd1cbb4dd2e0e7f579a17a40355d6ce87f376ae76520dbd7c4956876779a6bdc16c91f5b223dafa5d445052#npm:6.1.0", {\
+          "packageLocation": "./.yarn/__virtual__/mongodb-virtual-240b86ca1f/0/cache/mongodb-npm-6.1.0-74114fa4aa-ed60c14f0a.zip/node_modules/mongodb/",\
           "packageDependencies": [\
-            ["mongodb", "virtual:ea9e9435b095441b892f0cabaf2ece9855a5630bbdd1cbb4dd2e0e7f579a17a40355d6ce87f376ae76520dbd7c4956876779a6bdc16c91f5b223dafa5d445052#npm:5.9.0"],\
+            ["mongodb", "virtual:ea9e9435b095441b892f0cabaf2ece9855a5630bbdd1cbb4dd2e0e7f579a17a40355d6ce87f376ae76520dbd7c4956876779a6bdc16c91f5b223dafa5d445052#npm:6.1.0"],\
             ["@aws-sdk/credential-providers", null],\
             ["@mongodb-js/saslprep", "npm:1.1.0"],\
             ["@mongodb-js/zstd", null],\
             ["@types/aws-sdk__credential-providers", null],\
+            ["@types/gcp-metadata", null],\
             ["@types/kerberos", null],\
             ["@types/mongodb-client-encryption", null],\
             ["@types/mongodb-js__zstd", null],\
             ["@types/snappy", null],\
-            ["bson", "npm:5.5.0"],\
+            ["@types/socks", null],\
+            ["bson", "npm:6.1.0"],\
+            ["gcp-metadata", null],\
             ["kerberos", null],\
             ["mongodb-client-encryption", null],\
             ["mongodb-connection-string-url", "npm:2.6.0"],\
             ["snappy", null],\
-            ["socks", "npm:2.7.1"]\
+            ["socks", null]\
           ],\
           "packagePeers": [\
             "@aws-sdk/credential-providers",\
             "@mongodb-js/zstd",\
             "@types/aws-sdk__credential-providers",\
+            "@types/gcp-metadata",\
             "@types/kerberos",\
             "@types/mongodb-client-encryption",\
             "@types/mongodb-js__zstd",\
             "@types/snappy",\
+            "@types/socks",\
+            "gcp-metadata",\
             "kerberos",\
             "mongodb-client-encryption",\
-            "snappy"\
+            "snappy",\
+            "socks"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1205,7 +1212,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["prismarine-k8s-wss", "workspace:."],\
             ["bufferutil", "npm:4.0.7"],\
-            ["mongodb", "virtual:ea9e9435b095441b892f0cabaf2ece9855a5630bbdd1cbb4dd2e0e7f579a17a40355d6ce87f376ae76520dbd7c4956876779a6bdc16c91f5b223dafa5d445052#npm:5.9.0"],\
+            ["mongodb", "virtual:ea9e9435b095441b892f0cabaf2ece9855a5630bbdd1cbb4dd2e0e7f579a17a40355d6ce87f376ae76520dbd7c4956876779a6bdc16c91f5b223dafa5d445052#npm:6.1.0"],\
             ["redis", "npm:4.6.7"],\
             ["utf-8-validate", "npm:6.0.3"],\
             ["ws", "virtual:ea9e9435b095441b892f0cabaf2ece9855a5630bbdd1cbb4dd2e0e7f579a17a40355d6ce87f376ae76520dbd7c4956876779a6bdc16c91f5b223dafa5d445052#npm:8.13.0"]\
