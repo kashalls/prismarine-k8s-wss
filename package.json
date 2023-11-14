@@ -1,6 +1,6 @@
 {
   "name": "prismarine-k8s-wss",
-  "packageManager": "yarn@3.6.1",
+  "packageManager": "yarn@4.0.2",
   "dependencies": {
     "bufferutil": "^4.0.7",
     "mongodb": "^5.7.0",
