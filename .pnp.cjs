@@ -28,7 +28,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["bufferutil", "npm:4.0.7"],\
+            ["bufferutil", "npm:4.0.8"],\
             ["mongodb", "virtual:ea9e9435b095441b892f0cabaf2ece9855a5630bbdd1cbb4dd2e0e7f579a17a40355d6ce87f376ae76520dbd7c4956876779a6bdc16c91f5b223dafa5d445052#npm:5.9.0"],\
             ["redis", "npm:4.6.7"],\
             ["utf-8-validate", "npm:6.0.3"],\
@@ -383,10 +383,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["bufferutil", [\
-        ["npm:4.0.7", {\
-          "packageLocation": "./.yarn/unplugged/bufferutil-npm-4.0.7-77a45bb7a3/node_modules/bufferutil/",\
+        ["npm:4.0.8", {\
+          "packageLocation": "./.yarn/unplugged/bufferutil-npm-4.0.8-8005ed6210/node_modules/bufferutil/",\
           "packageDependencies": [\
-            ["bufferutil", "npm:4.0.7"],\
+            ["bufferutil", "npm:4.0.8"],\
             ["node-gyp", "npm:9.4.0"],\
             ["node-gyp-build", "npm:4.6.0"]\
           ],\
@@ -1204,7 +1204,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["prismarine-k8s-wss", "workspace:."],\
-            ["bufferutil", "npm:4.0.7"],\
+            ["bufferutil", "npm:4.0.8"],\
             ["mongodb", "virtual:ea9e9435b095441b892f0cabaf2ece9855a5630bbdd1cbb4dd2e0e7f579a17a40355d6ce87f376ae76520dbd7c4956876779a6bdc16c91f5b223dafa5d445052#npm:5.9.0"],\
             ["redis", "npm:4.6.7"],\
             ["utf-8-validate", "npm:6.0.3"],\
@@ -1603,7 +1603,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["ws", "virtual:ea9e9435b095441b892f0cabaf2ece9855a5630bbdd1cbb4dd2e0e7f579a17a40355d6ce87f376ae76520dbd7c4956876779a6bdc16c91f5b223dafa5d445052#npm:8.13.0"],\
             ["@types/bufferutil", null],\
             ["@types/utf-8-validate", null],\
-            ["bufferutil", "npm:4.0.7"],\
+            ["bufferutil", "npm:4.0.8"],\
             ["utf-8-validate", "npm:6.0.3"]\
           ],\
           "packagePeers": [\
